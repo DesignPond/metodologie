@@ -47,7 +47,7 @@
                 <li class="up-event-wrap">
                     <h1 class="title-median"><a href="#" title="Annual alumni game">Lectures préparatoires</a></h1>
                     <div class="up-event-meta clearfix">
-                        <div class="up-event-date">Jul 25, 2015</div><div class="up-event-time">9:00 - 11:00</div>
+                        <div class="up-event-date">Oct 9, 2015</div>
                     </div>
                     <p>Lectures préparatoires pour le cours du 9 octobre<br/>
                         <a href="#" class="moretag" title="read more">Plus</a>
@@ -56,7 +56,7 @@
                 <li class="up-event-wrap">
                     <h1 class="title-median"><a href="#" title="School talents gathering">Inscriptions</a></h1>
                     <div class="up-event-meta clearfix">
-                        <div class="up-event-date">Aug 25, 2015</div><div class="up-event-time">8:30 - 10:30</div>
+                        <div class="up-event-date">Aou 25, 2015</div><div class="up-event-time">8:30 - 18:30</div>
                     </div>
                     <p>Inscriptions pour les visites du Parlement<br/>
                         <a href="#" class="moretag" title="read more">Plus</a>

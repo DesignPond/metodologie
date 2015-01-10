@@ -63,6 +63,52 @@
                                 </a>
                             </li>
                         </ul><!-- downloads list end -->
+                        <h6>Programme</h6>
+                        <p>
+                            Aenean eu sem non diam iaculis gravida. Nam imperdiet eleifend <strong>erat ut viverra</strong>.
+                            Fusce vitae ultrices tortor, tincidunt consectetur purus. Donec ut suscipit nisi. Ut vitae venenatis dolor.
+                            Phasellus volutpat sapien sit amet tellus gravida, nec dignissim elit congue. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. Vivamus leo magna, condimentum vitae feugiat id, lobortis et nibh.
+                        </p>
+
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Event</th>
+                                <th>Schedule</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>consectetur pulvinar</td>
+                                <td>16:00 - 17:00</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>metus pellentesque</td>
+                                <td>17:15 - 17:30</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>varius elit</td>
+                                <td>17:30 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>porttitor tempor</td>
+                                <td>18:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>suscipit ligula</td>
+                                <td>20:00 - 21:00</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+
                     </div><!-- course content end -->
 
                 </div>
