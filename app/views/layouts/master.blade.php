@@ -28,52 +28,45 @@
     <div class="row"><!-- row -->
         <nav class="k-functional-navig"><!-- functional navig -->
             <ul class="list-inline pull-right">
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Calendar</a></li>
-                <li><a href="#">Directions</a></li>
+                <li><a target="_blank" href="http://www2.unine.ch">Unine</a></li>
+                <li><a target="_blank" href="https://claroline.unine.ch/">Claroline</a></li>
+                <li><a target="_blank" href="http://www.unine.ch/pidho">Horaires des cours</a></li>
             </ul>
         </nav><!-- functional navig end -->
         <div class="col-lg-12">
             <div id="k-site-logo" class="pull-left"><!-- site logo -->
                 <h1 class="k-logo">
-                    <a href="index.html" title="Home Page">
+                    <a href="{{ url('/') }}" title="Home Page">
                         <img src="img/site-logo.png" alt="Site Logo" class="img-responsive" />
                     </a>
                 </h1>
                 <a id="mobile-nav-switch" href="#drop-down-left"><span class="alter-menu-icon"></span></a><!-- alternative menu button -->
             </div><!-- site logo end -->
-            <nav id="k-menu" class="k-main-navig"><!-- main navig -->
-                <ul id="drop-down-left" class="k-dropdown-menu">
-                    <li><a href="{{ url('/') }}" title="Accueil">Accueil</a></li>
-                    <li><a href="events.html" title="Upcoming Events">Events</a></li>
-                    <li>
-                        <a href="#" class="Pages Collection" title="Cours">Cours</a>
-                        <ul class="sub-menu">
-                            <li><a href="news-single.html">News Single Page</a></li>
-                            <li>
-                                <a href="#">Menu Test</a>
-                                <ul class="sub-menu">
-                                    <li><a href="#">Second Level 01</a></li>
-                                    <li>
-                                        <a href="#">Second Level 02</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Third Level 01</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Second Level 03</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="{{ url('contact') }}" title="Contact">Contact</a></li>
-                </ul>
-            </nav><!-- main navig end -->
+
+            <!-- Navigation  -->
+            @include('partials.navigation')
+
         </div>
     </div><!-- row end -->
 </div><!-- container + head wrapper end -->
 
 <div id="k-body"><!-- content wrapper -->
     <div class="container"><!-- container -->
+
+        <div class="row"><!-- row -->
+            <div id="k-top-search" class="col-lg-12 clearfix"><!-- top search -->
+
+                <!-- Search  -->
+                @include('partials.search')
+
+            </div><!-- top search end -->
+            <div class="k-breadcrumbs col-lg-12 clearfix"><!-- breadcrumbs -->
+
+                <!-- Search  -->
+                @include('partials.breadcrumbs')
+
+            </div><!-- breadcrumbs end -->
+        </div><!-- row end -->
 
         <!-- Contenu -->
         @yield('content')
@@ -89,13 +82,11 @@
                 <div class="col-padded col-naked">
                     <ul class="list-unstyled clear-margins"><!-- widgets -->
                         <li class="widget-container widget_nav_menu"><!-- widgets list -->
-                            <h1 class="title-widget">Useful links</h1>
+                            <h1 class="title-widget">Liens utiles</h1>
                             <ul>
-                                <li><a href="#" title="menu item">Placement Exam Schedule</a></li>
-                                <li><a href="#" title="menu item">Superintendent's Hearing Audio</a></li>
-                                <li><a href="#" title="menu item">Budget Central</a></li>
-                                <li><a href="#" title="menu item">Job Opportunities - Application</a></li>
-                                <li><a href="#" title="menu item">College Acceptances as of May 12</a></li>
+                                <li><a target="_blank" href="http://www.bger.ch/fr/jurisdiction-recht" title="menu item">Tribunal fédéral</a></li>
+                                <li><a target="_blank" href="http://www.bvger.ch/recht/00551/index.html?lang=fr" title="menu item">Tribunal administratif</a></li>
+                                <li><a target="_blank" href="http://www.bstger.ch/fr/giurisprudenza/index.html" title="menu item">Tribunal pénal</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -107,25 +98,17 @@
                 <div class="col-padded col-naked">
                     <ul class="list-unstyled clear-margins"><!-- widgets -->
                         <li class="widget-container widget_recent_news"><!-- widgets list -->
-                            <h1 class="title-widget">School Contact</h1>
+                            <h1 class="title-widget">Université de Neuchâtel</h1>
                             <div itemscope itemtype="http://data-vocabulary.org/Organization">
-                                <h2 class="title-median m-contact-subject" itemprop="name">Buntington Public Schools</h2>
+                                <h2 class="title-median m-contact-subject" itemprop="name">Faculté de droit</h2>
                                 <div class="m-contact-address" itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
-                                    <span class="m-contact-street" itemprop="street-address">19 Tower Avenue, Buntington Station</span>
-                                    <span class="m-contact-city-region"><span class="m-contact-city" itemprop="locality">New York</span>, <span class="m-contact-region" itemprop="region">NY</span></span>
-                                    <span class="m-contact-zip-country"><span class="m-contact-zip" itemprop="postal-code">11506</span> <span class="m-contact-country" itemprop="country-name">USA</span></span>
+                                    <span class="m-contact-street" itemprop="street-address">Avenue du 1er-Mars 26</span>
+                                    <span class="m-contact-city-region"><span class="m-contact-city" itemprop="locality">2000</span>, <span class="m-contact-region" itemprop="region">Neuchâtel</span></span>
                                 </div>
                                 <div class="m-contact-tel-fax">
-                                    <span class="m-contact-tel">Tel: <span itemprop="tel">631-551-3678</span></span>
-                                    <span class="m-contact-fax">Fax: <span itemprop="fax">631-551-3688</span></span>
+                                    <span class="m-contact-tel">Tel: <span itemprop="tel">+41 32 718 12 00</span></span>
+                                    <span class="m-contact-fax">Fax: <span itemprop="fax">+41 32 718 12 01</span></span>
                                 </div>
-                            </div>
-                            <div class="social-icons">
-                                <ul class="list-unstyled list-inline">
-                                    <li><a href="#" title="Contact us"><i class="fa fa-envelope"></i></a></li>
-                                    <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                </ul>
                             </div>
                         </li>
                     </ul>
@@ -135,18 +118,14 @@
             <div class="col-lg-4 col-md-4"><!-- widgets column right -->
                 <div class="col-padded col-naked">
                     <ul class="list-unstyled clear-margins"><!-- widgets -->
-                        <li class="widget-container widget_sofa_flickr"><!-- widgets list -->
-                            <h1 class="title-widget">Flickr Stream</h1>
-                            <ul class="k-flickr-photos list-unstyled">
-                                <li><a href="#" title="Flickr photo"><img src="img/flickr-1.jpg" alt="Photo 1" /></a></li>
-                                <li><a href="#" title="Flickr photo"><img src="img/flickr-2.jpg" alt="Photo 2" /></a></li>
-                                <li><a href="#" title="Flickr photo"><img src="img/flickr-3.jpg" alt="Photo 3" /></a></li>
-                                <li><a href="#" title="Flickr photo"><img src="img/flickr-4.jpg" alt="Photo 4" /></a></li>
-                                <li><a href="#" title="Flickr photo"><img src="img/flickr-5.jpg" alt="Photo 5" /></a></li>
-                                <li><a href="#" title="Flickr photo"><img src="img/flickr-6.jpg" alt="Photo 6" /></a></li>
-                                <li><a href="#" title="Flickr photo"><img src="img/flickr-7.jpg" alt="Photo 7" /></a></li>
-                                <li><a href="#" title="Flickr photo"><img src="img/flickr-8.jpg" alt="Photo 8" /></a></li>
-                            </ul>
+                        <li class="widget-container widget_course_search"><!-- widgets list -->
+                            <h1 class="title-widget">Recherche sur le site</h1>
+                            <form role="search" method="get" id="course-finder" action="#">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Recherche..." autocomplete="off" class="form-control" id="find-course" name="find-course" />
+                                    <span class="input-group-btn"><button type="submit" class="btn btn-default">GO!</button></span>
+                                </div>
+                            </form>
                         </li>
                     </ul>
                 </div>
@@ -161,7 +140,7 @@
         <div class="row"><!-- row -->
             <div class="col-lg-12">
                 <p class="copy-text text-inverse">
-                    &copy; 2015 Buntington Public Schools. All rights reserved.
+                    &copy; <?php echo date('Y'); ?> Faculté de droit, Uninversité de Neuchâtel. Tous droits réservés.
                 </p>
             </div>
         </div><!-- row end -->

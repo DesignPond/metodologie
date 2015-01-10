@@ -7,4 +7,9 @@ class HomeController extends BaseController {
 		return View::make('index');
 	}
 
+	public function content()
+	{
+		return View::make('content');
+	}
+
 }

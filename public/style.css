@@ -57,10 +57,10 @@ h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus, h3 a:hover, h3 a:focus, h4 a:hov
 /* == END titles, titles custom == */
 
 /* == custom buttons == */
-.custom-button { display: block; position: relative; overflow: hidden; padding: 15px 20px; margin: 20px 0; -webkit-transition: 0.25s ease-in-out all; -moz-transition: 0.15s ease-in-out all; -o-transition: 0.15s ease-in-out all; transition: 0.15s ease-in-out all; }
-.custom-button-wrap { display: block; margin-left: 30px; }
-.custom-button-icon { display: block; float: left; font-size: 20px; line-height: 24px; }
-.custom-button-title { display: block; font-size: 20px; font-weight: 700; color: #fff7e3; line-height: 20px; letter-spacing: -.02em; text-transform: uppercase; }
+.custom-button { display: block; position: relative; overflow: hidden; padding: 15px; margin: 20px 0; -webkit-transition: 0.25s ease-in-out all; -moz-transition: 0.15s ease-in-out all; -o-transition: 0.15s ease-in-out all; transition: 0.15s ease-in-out all; }
+.custom-button-wrap { display: block; margin-left: 25px; }
+.custom-button-icon { display: block; float: left; font-size: 18px; line-height: 24px; }
+.custom-button-title { display: block; font-size: 16px; font-weight: 700; color: #fff7e3; line-height: 20px; letter-spacing: -.02em; text-transform: uppercase; }
 .custom-button-tagline { display: block; font-size: 12px; line-height: 16px; font-weight: 400; margin-top: 5px; }
 .custom-button-icon, .custom-button-tagline { color: #000; opacity: 0.5; }
 .custom-button:hover { -moz-border-radius: 0 0 20px 0; -webkit-border-radius: 0 0 20px 0; border-radius: 0 0 20px 0; }
@@ -195,7 +195,7 @@ span.alter-menu-icon { display: block; width: 24px; height: 24px; background: ur
 /* == END site body == */
 
 /* == site footer == */
-#k-footer { background: url(img/footer-bg.png) repeat left top scroll #FFF; border-top: 1px solid #EEE; padding: 40px 0; }
+#k-footer { background: #FFF; border-top: 1px solid #EEE; padding: 40px 0; }
 /* == END site footer == */
 
 /* == site subfooter == */
@@ -234,7 +234,7 @@ span.alter-menu-icon { display: block; width: 24px; height: 24px; background: ur
 .pos-c-full { width: 100%; }
 .pos-c-2-3 { width: 66.6%; margin: 0 17%; }
 .pos-c-full, .pos-c-2-3 { bottom: 0; text-align: center; border-top: none; }
-.scheme-dark { color: #FFF; background-color: rgba(0, 0, 0, 0.5); -moz-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); -webkit-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+.scheme-dark { color: #FFF; background-color: rgba(0, 0, 0, 0.6); -moz-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); -webkit-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
 .scheme-light { color: #111; background-color: rgba(255, 255, 255, 0.5); -moz-text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6); -webkit-text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6); text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6); }
 .scheme-dark .caption-title { color: #FFF; }
 .scheme-light .caption-title { color: #363636; }
