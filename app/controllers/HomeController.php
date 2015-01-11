@@ -12,4 +12,9 @@ class HomeController extends BaseController {
 		return View::make('content');
 	}
 
+	public function detail()
+	{
+		return View::make('detail');
+	}
+
 }

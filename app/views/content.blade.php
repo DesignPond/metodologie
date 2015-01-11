@@ -19,95 +19,52 @@
 
                     <div class="news-body clearfix"><!-- course content -->
 
-                        <p>Duis ornare magna sit amet dui eleifend imperdiet. Aliquam at porta elit. Proin lorem lacus, tempus id diam sit amet,
-                            <a href="#" title="porttitor tempor">porttitor tempor</a> lectus. Praesent id felis sagittis, suscipit ligula sed,
-                            condimentum nisi. In non commodo risus. Praesent fringilla ligula in orci consectetur pulvinar. Nunc
-                            <strong>facilisis metus pellentesque</strong>, vestibulum libero eget, varius elit. Aliquam sed gravida dui, a
-                            imperdiet eros. Cras dignissim libero id feugiat pharetra. Nullam ut bibendum est, sed tincidunt massa.
+                        <h6>L'organisation générale</h6>
+                        <p>Le cours est donné tous les <strong>jeudis entre 13h15 et 15h00, du 17 septembre au 21 décembre</strong>,
+                            2014. Le calendrier détaillé se trouve sur la plate-forme claroline. Quelques modifications
+                            peuvent lui être apportées en cours d'année, notamment pour des raisons de coordination
+                            avec le cours d’introduction générale au droit.
                         </p>
-                        <p>Aenean eu sem non diam iaculis gravida. Nam imperdiet eleifend <strong>erat ut viverra</strong>.
-                            Fusce vitae ultrices tortor, tincidunt consectetur purus. Donec ut suscipit nisi. Ut vitae
-                            venenatis dolor. Phasellus volutpat sapien sit amet tellus gravida, nec dignissim elit congue.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo magna, condimentum vitae feugiat id, lobortis et nibh.
+                        <h6>La préparation personnelle</h6>
+                        <p>En dehors du cours proprement dit, les étudiants doivent fournir un travail personnel
+                            hebdomadaire. Il s'agit d’une part de lectures préparatoires dans l’ouvrage de base
+                            <strong>P. TERCIER / C. ROTEN La recherche et la rédaction juridiques, 6ème éd., Genève / Zurich / Bâle
+                            2011</strong>, que les étudiants sont vivement invités à acquérir. D’autre part, les étudiants doivent
+                            préparer des exercices destinés à mettre en pratique la matière acquise.
                         </p>
+
                         <hr />
 
-                        <h6>Supports de cours:</h6>
-                        <ul class="list-unstyled list-downloads"><!-- downloads list -->
-                            <li>
-                                <i class="fa fa-cloud-download"></i>
-                                <a href="#" title="Course Materials" class="download-link">
-                                    <span class="dwnld-title">Plan détaillé</span>
-                                    <span class="help-block">Fusce vitae ultrices tortor, tincidunt consectetur purus (12.5 MB)</span>
-                                </a>
-                            </li>
-                            <li>
-                                <i class="fa fa-cloud-download"></i>
-                                <a href="#" title="Course Materials" class="download-link">
-                                    <span class="dwnld-title">Exercices</span>
-                                    <span class="help-block">Cras dignissim libero id feugiat pharetra. (32.8 MB)</span>
-                                </a>
-                            </li>
-                            <li>
-                                <i class="fa fa-cloud-download"></i>
-                                <a href="#" title="Course Materials" class="download-link">
-                                    <span class="dwnld-title">Calendrier</span>
-                                    <span class="help-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (9.1 MB)</span>
-                                </a>
-                            </li>
-                            <li>
-                                <i class="fa fa-cloud-download"></i>
-                                <a href="#" title="Course Materials" class="download-link">
-                                    <span class="dwnld-title">Directives</span>
-                                    <span class="help-block">Aliquam at porta elit. (10.4 MB)</span>
-                                </a>
-                            </li>
-                        </ul><!-- downloads list end -->
-                        <h6>Programme</h6>
-                        <p>
-                            Aenean eu sem non diam iaculis gravida. Nam imperdiet eleifend <strong>erat ut viverra</strong>.
-                            Fusce vitae ultrices tortor, tincidunt consectetur purus. Donec ut suscipit nisi. Ut vitae venenatis dolor.
-                            Phasellus volutpat sapien sit amet tellus gravida, nec dignissim elit congue. Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit. Vivamus leo magna, condimentum vitae feugiat id, lobortis et nibh.
-                        </p>
-
-                        <table class="table table-striped">
-                            <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Event</th>
-                                <th>Schedule</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>consectetur pulvinar</td>
-                                <td>16:00 - 17:00</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>metus pellentesque</td>
-                                <td>17:15 - 17:30</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>varius elit</td>
-                                <td>17:30 - 18:00</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>porttitor tempor</td>
-                                <td>18:00 - 20:00</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>suscipit ligula</td>
-                                <td>20:00 - 21:00</td>
-                            </tr>
-                            </tbody>
-                        </table>
-
+                        <div class="bullet-paragraph-wrap"><!-- bullet paragraph -->
+                            <i class="fa fa-2x fa-arrow-circle-o-right"></i>
+                            <div class="bullet-paragraph-text">
+                                <h6>La recherche juridique</h6>
+                                <ol>
+                                    <li>La législation suisse
+                                        <ol>
+                                            <li><a href="{{ url('detail') }}">La structure d’une loi fédérale</a></li>
+                                            <li><a href="{{ url('detail') }}">La législation fédérale</a></li>
+                                            <li><a href="{{ url('detail') }}">Les législations cantonales</a></li>
+                                        </ol>
+                                    </li>
+                                    <li>La jurisprudence
+                                        <ol>
+                                            <li><a href="{{ url('detail') }}">Les jurisprudences fédérales</a></li>
+                                            <li><a href="{{ url('detail') }}">Les jurisprudences cantonales</a></li>
+                                            <li><a href="{{ url('detail') }}">La consultation de la jurisprudence</a></li>
+                                            <li><a href="{{ url('detail') }}">La structure des arrêts du Tribunal fédéral</a></li>
+                                        </ol>
+                                    </li>
+                                    <li>La doctrine
+                                        <ol>
+                                            <li><a href="{{ url('detail') }}">Les principaux types de publication</a></li>
+                                            <li><a href="{{ url('detail') }}">La consultation de la doctrine</a></li>
+                                            <li><a href="{{ url('detail') }}">Les revues principales du droit suisse</a></li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
 
                     </div><!-- course content end -->
 

@@ -276,18 +276,35 @@ span.alter-menu-icon { display: block; width: 24px; height: 24px; background: ur
 /* == widgets global == */
 li.widget-container:not(:first-child) { margin-top: 60px; }
 .widget_archive ul, .widget_categories ul, .widget_pages ul, .widget_meta ul, .widget_nav_menu ul { padding-left: 0; list-style: none outside none; }
-.widget_archive ul li, .widget_categories ul li, .widget_pages ul li, .widget_meta ul li, .widget_nav_menu ul li { font-size: 13px; line-height: 20px; font-weight: 700; text-transform: uppercase; padding-left: 15px; position: relative; }
+.widget_archive ul li, .widget_categories ul li, .widget_pages ul li, .widget_meta ul li, .widget_nav_menu ul li { font-size: 12px; line-height: 20px; font-weight: 700; text-transform: uppercase; padding-left: 12px; position: relative; }
 .widget_archive ul li:before, .widget_categories ul li:before, .widget_pages ul li:before, .widget_meta ul li:before, .widget_nav_menu ul li:before { content: ""; position: absolute; width: 3px; height: 3px; left: 0; top: 7px; background-color: rgba( 0, 0, 0, 0.3 ); }
 .widget_archive ul li:not(:last-child), .widget_categories ul li:not(:last-child), .widget_pages ul li:not(:last-child), .widget_meta ul li:not(:last-child), .widget_nav_menu ul li:not(:last-child) { border-bottom: 1px solid rgba( 0, 0, 0, 0.05 ); margin-bottom: 7px; padding-bottom: 7px; }
 .widget_archive ul li a, .widget_categories ul li a, .widget_pages ul li a, .widget_meta ul li a, .widget_nav_menu ul li a { display: block; }
 .widget_archive ul li a:link, .widget_categories ul li a:link, .widget_pages ul li a:link, .widget_meta ul li a:link, .widget_nav_menu ul li a:link, 
 .widget_archive ul li a:visited, .widget_categories ul li a:visited, .widget_pages ul li a:visited, .widget_meta ul li a:visited, .widget_nav_menu ul li a:visited { color: #636363; }
-.widget_archive ul li a:hover, .widget_categories ul li a:hover, .widget_pages ul li a:hover, .widget_meta ul li a:hover, .widget_nav_menu ul li a:hover, 
-.widget_archive ul li a:focus, .widget_categories ul li a:focus, .widget_pages ul li a:focus, .widget_meta ul li a:focus, .widget_nav_menu ul li a:focus { color: #ea5644; }
+
+.widget_archive ul li a:hover,
+.widget_categories ul li a:hover,
+.widget_pages ul li a:hover,
+.widget_meta ul li a:hover,
+.widget_nav_menu ul li a:hover,
+.widget_archive ul li a:focus,
+.widget_categories ul li a:focus,
+.widget_pages ul li a:focus,
+.widget_meta ul li a:focus,
+.widget_nav_menu ul li a:focus { color: #ea5644; }
+
+.widget_archive ul li a.active,
+.widget_categories ul li a.active,
+.widget_pages ul li a.active,
+.widget_meta ul li a.active,
+.widget_nav_menu ul li a.active { color: #ea5644; }
+
 .tagcloud { overflow: hidden; }
 .tagcloud a { background-color: rgba( 0, 0, 0, 0.05 ); display: block; float: left; font-size: 12px; line-height: 18px; margin: 0 5px 5px 0; padding: 5px 10px; position: relative; }
 .tagcloud a:link, .tagcloud a:visited { color: #636363; }
 .tagcloud a:hover, .tagcloud a:focus { color: #ea5644; }
+.widget_nav_menu h6{ margin-bottom: 20px;}
 /* == END widgets global == */
 
 /* == upcoming events ( widget, page and single ) == */

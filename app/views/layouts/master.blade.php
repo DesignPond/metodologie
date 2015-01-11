@@ -87,6 +87,7 @@
                                 <li><a target="_blank" href="http://www.bger.ch/fr/jurisdiction-recht" title="menu item">Tribunal fédéral</a></li>
                                 <li><a target="_blank" href="http://www.bvger.ch/recht/00551/index.html?lang=fr" title="menu item">Tribunal administratif</a></li>
                                 <li><a target="_blank" href="http://www.bstger.ch/fr/giurisprudenza/index.html" title="menu item">Tribunal pénal</a></li>
+                                <li><a target="_blank" href="www.lexfind.ch" title="menu item">www.lexfind.ch</a></li>
                             </ul>
                         </li>
                     </ul>

@@ -40,7 +40,7 @@
                 </li><!-- widget end -->
             </ul><!-- widgets end -->
         </li><!-- widgets list end -->
-    @else
+    @elseif(Request::is('content'))
         <li class="widget-container widget_up_events"><!-- widget -->
             <h1 class="title-widget">Annonces</h1>
             <ul class="list-unstyled">
@@ -74,6 +74,27 @@
                 <em></em>
             </a>
         </li><!-- widget end -->
-
+    @else
+        <li class="widget-container widget_nav_menu"><!-- widget -->
+            <h1 class="title-widget">La recherche juridique</h1>
+            <h6><a href="#">La législation suisse</a></h6>
+            <ul>
+                <li><a class="active" href="#" title="menu item">La structure d’une loi fédérale</a></li>
+                <li><a href="#" title="menu item">La législation fédérale</a></li>
+                <li><a href="#" title="menu item">Les législations cantonales</a></li>
+            </ul>
+            <h6><a href="#">La jurisprudence</a></h6>
+            <h6><a href="#">La doctrine</a></h6>
+        </li>
+        <li class="widget-container widget_text"><!-- widget -->
+            <a href="#" class="custom-button cb-yellow" title="Un problème?">
+                <i class="custom-button-icon fa fa-question-circle"></i>
+                <span class="custom-button-wrap">
+                    <span class="custom-button-title">Un problème?</span>
+                    <span class="custom-button-tagline">Contacter un assistant</span>
+                </span>
+                <em></em>
+            </a>
+        </li><!-- widget end -->
     @endif
 </ul><!-- widgets end -->
