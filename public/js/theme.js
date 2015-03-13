@@ -25,6 +25,7 @@
 	
 	/* ---------- handle navigation for smaller devices */
 	CHEF.mobileMenuClone = '';
+
 	if( $( 'nav#k-menu' ).length ) CHEF.mobileMenuClone = $( 'nav#k-menu' ).clone().attr( 'id', 'navigation-mobile' );
 	CHEF.mobileNav = function() {
 		CHEF.mobileMenuClone.insertAfter( 'nav#k-menu' );

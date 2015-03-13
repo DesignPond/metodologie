@@ -9,12 +9,12 @@
 
                     <div class="course-title-meta clearfix"><!-- course meta -->
                         <h1 class="page-title">La recherche juridique</h1>
-                        <dl class="dl-horizontal course-meta">
+                       <!-- <dl class="dl-horizontal course-meta">
                             <dt>Enseignant</dt><dd>CARRON Blaise, professeur ordinaire</dd>
                             <dt>Cours</dt><dd>4DR1021</dd>
                             <dt>Période</dt><dd>Semestre Automne</dd>
                             <dt>Filières</dt><dd>Bachelor en droit</dd>
-                        </dl>
+                        </dl>-->
                     </div><!-- course meta end -->
 
                     <div class="news-body clearfix"><!-- course content -->

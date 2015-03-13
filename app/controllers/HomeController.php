@@ -17,4 +17,9 @@ class HomeController extends BaseController {
 		return View::make('detail');
 	}
 
+    public function loi()
+    {
+        return View::make('loi');
+    }
+
 }

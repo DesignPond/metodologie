@@ -10,8 +10,8 @@
                     <div class="k-carousel-caption pos-1-3-right scheme-dark">
                         <div class="caption-content">
                             <h3 class="caption-title">Méthodologie juridique</h3>
-                            <p>Période d'enseignement<br/><strong>Semestre Automne</strong></p>
-                            <p>Equipe enseignante<br/><strong>CARRON Blaise, professeur ordinaire</strong></p>
+                        <!--    <p>Période d'enseignement<br/><strong>Semestre Automne</strong></p>
+                            <p>Equipe enseignante<br/><strong>CARRON Blaise, professeur ordinaire</strong></p>-->
                         </div>
                     </div>
                 </div>

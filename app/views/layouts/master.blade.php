@@ -14,7 +14,20 @@
     <link rel="stylesheet" type="text/css" href="<?php echo asset('js/dropdown-menu/dropdown-menu.css');?>">
     <link rel="stylesheet" type="text/css" href="<?php echo asset('bootstrap/css/bootstrap.min.css');?>">
     <link rel="stylesheet" type="text/css" href="<?php echo asset('js/fancybox/jquery.fancybox.css');?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo asset('css/annotator.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo asset('style.css');?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo asset('guides.css');?>">
+
+    <!-- jQuery -->
+    <script src="<?php echo asset('jQuery/jquery-2.1.1.min.js');?>"></script>
+    <script src="<?php echo asset('jQuery/jquery-migrate-1.2.1.min.js');?>"></script>
+
+    <script src="<?php echo asset('js/annotator-full.min.js');?>"></script>
+    <script src="<?php echo asset('js/jquery-i18n-master/jquery.i18n.min.js');?>"></script>
+    <script src="<?php echo asset('js/view_annotator.js');?>"></script>
+    <script src="<?php echo asset('js/categories.js');?>"></script>
+    <script src="<?php echo asset('js/jquery.expose.js');?>"></script>
+    <script src="<?php echo asset('js/annotator.js');?>"></script>
 
 </head>
 
@@ -27,17 +40,19 @@
 <div id="k-head" class="container"><!-- container + head wrapper -->
     <div class="row"><!-- row -->
         <nav class="k-functional-navig"><!-- functional navig -->
+        <!--
             <ul class="list-inline pull-right">
                 <li><a target="_blank" href="http://www2.unine.ch">Unine</a></li>
                 <li><a target="_blank" href="https://claroline.unine.ch/">Claroline</a></li>
                 <li><a target="_blank" href="http://www.unine.ch/pidho">Horaires des cours</a></li>
             </ul>
+        -->
         </nav><!-- functional navig end -->
         <div class="col-lg-12">
             <div id="k-site-logo" class="pull-left"><!-- site logo -->
                 <h1 class="k-logo">
                     <a href="{{ url('/') }}" title="Home Page">
-                        <img src="img/site-logo.png" alt="Site Logo" class="img-responsive" />
+                        <img src="img/logo.png" alt="Site Logo" class="img-responsive" />
                     </a>
                 </h1>
                 <a id="mobile-nav-switch" href="#drop-down-left"><span class="alter-menu-icon"></span></a><!-- alternative menu button -->
@@ -148,22 +163,19 @@
     </div><!-- container end -->
 </div><!-- subfooter end -->
 
-    <!-- jQuery -->
-    <script src="<?php echo asset('jQuery/jquery-2.1.1.min.js');?>"></script>
-    <script src="<?php echo asset('jQuery/jquery-migrate-1.2.1.min.js');?>"></script>
 
-    <!-- Bootstrap -->
-    <script src="<?php echo asset('bootstrap/js/bootstrap.min.js');?>"></script>
+<!-- Bootstrap -->
+<script src="<?php echo asset('bootstrap/js/bootstrap.min.js');?>"></script>
 
-    <!-- Drop-down -->
-    <script src="<?php echo asset('js/dropdown-menu/dropdown-menu.js');?>"></script>
+<!-- Drop-down -->
+<script src="<?php echo asset('js/dropdown-menu/dropdown-menu.js');?>"></script>
 
-    <!-- Fancybox -->
-    <script src="<?php echo asset('js/fancybox/jquery.fancybox.pack.js');?>"></script>
-    <script src="<?php echo asset('js/fancybox/jquery.fancybox-media.js');?>"></script>
+<!-- Fancybox -->
+<script src="<?php echo asset('js/fancybox/jquery.fancybox.pack.js');?>"></script>
+<script src="<?php echo asset('js/fancybox/jquery.fancybox-media.js');?>"></script>
 
-    <!-- Theme -->
-    <script src="<?php echo asset('js/theme.js');?>"></script>
+<!-- Theme -->
+<script src="<?php echo asset('js/theme.js');?>"></script>
 
 </body>
 </html>

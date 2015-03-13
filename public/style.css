@@ -128,7 +128,7 @@ img.alignleft, img.aligncenter, img.alignright { margin-bottom: 5px; }
 /* == END functional menu == */
 
 /* == dropdown-menu kustom style == */
-.k-main-navig { margin-top: 35px; line-height: 20px; }
+.k-main-navig { margin-top: 25px; line-height: 20px; }
 .k-dropdown-menu { background: none; text-align: left;
 	float: right; }
 .k-dropdown-menu .k-item-desc { display: block; font-size: 12px; font-weight: 300; }
@@ -138,7 +138,7 @@ img.alignleft, img.aligncenter, img.alignright { margin-bottom: 5px; }
 /* main links */
 #drop-down-left > li { margin-left: 50px; }
 #drop-down-left > li:first-child { /*margin-left: 0;*/ }
-#drop-down-left a { font-size: 13px; font-weight: 700; padding: 20px 0 10px !important; text-transform: uppercase; border-left: none; border-right: none; border-top: 5px solid #EFEFEF; -webkit-transition: all .25s; -moz-transition: all .25s; transition: all .25s; }
+#drop-down-left a { font-size: 13px; font-weight: 700; padding: 10px 0 5px !important; text-transform: uppercase; border-left: none; border-right: none; border-top: 5px solid #EFEFEF; -webkit-transition: all .25s; -moz-transition: all .25s; transition: all .25s; }
 #drop-down-left .k-item-desc { font-size: 12px; font-weight: 300; color: #959595; text-transform: none; -moz-opacity: 0.7; -webkit-opacity: 0.7; opacity: 0.7; }
 #drop-down-left a:link, #drop-down-left a:visited { color: #363636; background-color: transparent; }
 /* drops */
@@ -167,7 +167,7 @@ span.alter-menu-icon { display: block; width: 24px; height: 24px; background: ur
 /* ================================================== VARIOUS PAGE ELEMENTS */
 
 /* == site header == */
-#k-head { margin-bottom: 40px; }
+#k-head { }
 #k-site-logo { position: relative; }
 .k-logo { margin: 0; }
 /* == END site header == */
@@ -620,7 +620,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge { backgroun
 .row.no-gutter [class*='col-']:not(:first-child), .row.no-gutter [class*='col-']:not(:last-child) { padding-right: 0; padding-left: 0; }
 .row.no-gutter .row.gutter [class*='col-']:not(:first-child), .row.no-gutter .row.gutter [class*='col-']:not(:last-child) { padding-right: 15px; padding-left: 15px; }
 .row.fullwidth { margin-left: -15px; margin-right: -15px; }
-.col-padded { padding: 30px; background-color: #FFF; overflow: hidden; }
+.col-padded { padding: 30px; background-color: #FFF;  }
 .col-shaded { background-color: rgba( 0, 0, 0, 0.02 ); }
 .col-naked { background-color: transparent; }
 /* == END custom rows and columns == */
