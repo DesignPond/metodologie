@@ -31,15 +31,28 @@
                                                 <li><a class="expose" data-anchor="organe" href="#">Organe</a></li>
                                                 <li><a class="expose" data-anchor="visa" href="#">Visa, Base cst.</a></li>
                                                 <li><a class="expose" data-anchor="message" href="#">Réf. au Message du CF</a></li>
+                                                <li><a class="expose" data-anchor="verbe" href="#">Verbe</a></li>
                                             </ul>
                                         </li>
+                                        <li><a class="expose" data-anchor="but" href="#">But</a></li>
+                                        <li><a class="expose" data-anchor="application" href="#">Règle définitoire</a></li>
+                                        <li><a class="expose" data-anchor="finale" href="#">Dispositions finales </a>
+                                            <ul>
+                                                <li><a class="expose" data-anchor="clause" href="#">Clause d'exécution</a></li>
+                                                <li><a class="expose" data-anchor="abrogatoire" href="#">Clause abrogatoire</a></li>
+                                                <li><a class="expose" data-anchor="regle" href="#">Règle de dr intemporel</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="expose" data-anchor="entree" href="#">Entrée en vigueur</a></li>
+                                        <li><a class="expose" data-anchor="signatures" href="#">Signatures</a></li>
+                                        <li><a class="expose" data-anchor="formule" href="#">Formule de promulgation</a></li>
                                     </ol>
                             </div>
                             <div class="col-lg-9 col-md-9">
 
                                 <div id="content">
 
-                                    <?php $popover = ' tabindex="0" data-trigger="focus" data-toggle="popover" data-placement="bottom" '; ?>
+                                    <?php $popover = ' tabindex="0" data-trigger="focus" data-toggle="popover" data-placement="top" '; ?>
 
                                     <div id="intitule">
                                         <h1 id="numero" {{$popover}} title="Numéro" data-content="Chaque acte inclut dans le recueil dispose d'un numéro RS correspondant à sa position dans le classement thématique">251</h1>
@@ -58,13 +71,17 @@
                                         <p>
                                             <em id="organe" {{$popover}} title="Organe" data-content="Organe qui a adopté le texte législatif">L'Assemblée fédérale de la Confédération suisse,</em>
                                         </p>
-                                        <p><span id="visa" {{$popover}} title="Visa" data-content="Base cst.">vu</span> les art. 27, al. 1, 96<sup><a href="#fn1">1</a></sup>, 97, al. 2, et 122<sup><a href="#fn2">2</a></sup> de la Constitution
+                                        <p><span id="visa" {{$popover}} title="Visa, Base cst."
+                                                 data-content="Les «visas ». On appelle ainsi toutes les références aux documents sur lesquels se fonde l'acte, références introduites par la préposition invariable « vu » (issu du participe passé du verbe « voir» ; «gestützt auf»; « visto »).">
+                                                vu</span> les art. 27, al. 1, 96<sup><a href="#fn1">1</a></sup>, 97, al. 2, et 122<sup><a href="#fn2">2</a></sup> de la Constitution
                                             <sup><a href="#fn3">3</a></sup>,
                                             <sup><a href="#fn4">4</a></sup> en application des dispositions du droit de la concurrence des accords internationaux,
                                             <span id="message" {{$popover}} title="Message" data-content="Réf. au Message du CF">vu le message du Conseil fédéral du 23 novembre 1994</span>
                                             <sup><a href="#fn5">5</a></sup>,
                                         </p>
-                                        <p><em>arrête:</em></p>
+                                        <p id="verbe" {{$popover}} title="Message" data-content="verbe marquant la décision de l'organe qui l'édicte. Ainsi l'Assemblée fédérale ou le Conseil fédéral «arrête ». Dans la terminologie propre au droit, le verbe « arrêter » (« beschliessen » ; « decretare ») désigne l'acte par lequel une autorité législative ou judiciaire prend une décision. C'est de là que viennent d'ailleurs les termes « arrêté » désignant un type d'acte législatif et « arrêt » désignant un type de décision judiciaire. ">
+                                            <em>arrête:</em>
+                                        </p>
                                     </div>
 
                                     <div id="article">
@@ -72,132 +89,131 @@
                                         <a name="id-1"></a>
                                         <h1 class="title clickable"><span class="expanderComparator"></span>Chapitre 1 Dispositions générales</h1>
                                         <div class="collapseable">
-                                            <div class="a1 subpage" id="a1">
-                                                <div class="articleTitle"><h5><a href="index.html#a1"><strong>Art. 1</strong> But</a></h5></div>
-                                                <p>La présente loi a pour but d'empêcher les conséquences nuisibles
-                                                    d'ordre économique ou social imputables aux cartels et aux autres
-                                                    restrictions à la concurrence et de promouvoir ainsi la concurrence dans
-                                                    l'intérêt d'une économie de marché fondée sur un régime libéral.</p>
-                                            </div>
-                                            <div class="a2 subpage" id="a2">
-                                                <div class="articleTitle"><h5><a href="index.html#a2"><strong>Art.2</strong> Champ d'application</a></h5></div>
-                                                <p><sup><a name="1">1</a></sup>La présente loi s'applique aux
-                                                    entreprises de droit privé ou de droit public qui sont parties à des
-                                                    cartels ou à d'autres accords en matière de concurrence, qui sont
-                                                    puissantes sur le marché ou participent à des concentrations
-                                                    d'entreprises.
-                                                </p>
-                                                <p><sup><a name="1bis">1bis</a></sup>Est soumise à la présente loi
-                                                    toute entreprise engagée dans le processus économique qui offre ou
-                                                    acquiert des biens ou des services, indépendamment de son organisation
-                                                    ou de sa forme juridique.<sup><a href="#fn-#a2-1">1</a></sup>
-                                                </p>
-                                                <p><sup><a name="2">2</a></sup>La présente loi est applicable aux
-                                                    états de fait qui déploient leurs effets en Suisse, même s'ils se sont
-                                                    produits à l'étranger  .
-                                                </p>
-                                                <div class="fns">
-                                                    <p><small><a name="fn-#a2-1"><sup>1</sup></a> Introduit par le ch. I de
-                                                            la LF du 20 juin 2003, en vigueur depuis le 1<sup>er</sup> avr.
-                                                            2004 (<a href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
-                                                                <strong>2004</strong> 1385</a>; <a
-                                                                    href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
-                                                                <strong>2002</strong> 1911</a> 5128).
-                                                        </small>
+                                            <div id="but" {{$popover}} title="But de l'acte" data-content="Le but de l'acte (l'article-programme « der Zweckartikel » l'articolo sullo scopo»). 11 indique en une formule générale l'objet et souvent le (ou les) objectif(s) de l'acte. Cette indication peut servir d'indice pour l'interprétation (téléologique; cf. nt' 1651) d'une des dispositions qui suivent. ">
+                                                <div class="a1 subpage" id="a1">
+                                                    <div class="articleTitle">
+                                                        <h5><a href="index.html#a1"><strong>Art. 1</strong> But</a></h5>
+                                                    </div>
+                                                    <p id="determination" {{$popover}} title="Détermination du champ d'application" data-content="La détermination du champ d'application. Le texte précise en quelques fbrmules générales les champs d'application matériel et personnel de l'acte (p.ex. art. I 1 ss LI3FA ou 492 CO). ">
+                                                        La présente loi a pour but d'empêcher les conséquences nuisibles
+                                                        d'ordre économique ou social imputables aux cartels et aux autres
+                                                        restrictions à la concurrence et de promouvoir ainsi la concurrence dans
+                                                        l'intérêt d'une économie de marché fondée sur un régime libéral.
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="a3 subpage" id="a3">
-                                                <div class="articleTitle">
-                                                    <h5><a href="index.html#a3"><strong>Art. 3</strong> Rapport avec d'autres prescriptions légales</a></h5>
+                                            <div id="application" {{$popover}} title="Règle définitoire" data-content="Les règles défi nitoires. Afin de préciser le champ d'application de l'acte et simplifier son application ultérieure, le législateur propose de plus en plus la définition des principales notions utilisées. Le procédé est fréquent dans les traités internationaux, en raison des divergences de terminologie qui peuvent exister entre les systèmes de droit (p.ex. art. 2 ch. 2 et 4 ch. 3 CEDH). Ces définitions peuvent également figurer dans les ordonnances d'application ou d'exécution.">
+                                                <div class="a2 subpage" id="a2">
+                                                    <div class="articleTitle"><h5><a href="index.html#a2"><strong>Art.2</strong> Champ d'application</a></h5></div>
+                                                    <p><sup><a name="1">1</a></sup>La présente loi s'applique aux
+                                                        entreprises de droit privé ou de droit public qui sont parties à des
+                                                        cartels ou à d'autres accords en matière de concurrence, qui sont
+                                                        puissantes sur le marché ou participent à des concentrations
+                                                        d'entreprises.
+                                                    </p>
+                                                    <p><sup><a name="1bis">1bis</a></sup>Est soumise à la présente loi
+                                                        toute entreprise engagée dans le processus économique qui offre ou
+                                                        acquiert des biens ou des services, indépendamment de son organisation
+                                                        ou de sa forme juridique.<sup><a href="#fn-#a2-1">1</a></sup>
+                                                    </p>
+                                                    <p><sup><a name="2">2</a></sup>La présente loi est applicable aux
+                                                        états de fait qui déploient leurs effets en Suisse, même s'ils se sont
+                                                        produits à l'étranger  .
+                                                    </p>
+                                                    <div class="fns">
+                                                        <p><small><a name="fn-#a2-1"><sup>1</sup></a> Introduit par le ch. I de la LF du 20 juin 2003, en vigueur depuis le 1<sup>er</sup> avr. 2004 (<a href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO <strong>2004</strong> 1385</a>; <a href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF <strong>2002</strong> 1911</a> 5128). </small></p>
+                                                    </div>
                                                 </div>
-                                                <p>
-                                                    <sup><a name="1">1</a></sup>Les prescriptions qui, sur un
-                                                    marché, excluent de la concurrence certains biens ou services sont
-                                                    réservées, notamment:
-                                                </p>
-                                                <dl compact="compact">
-                                                    <dt>a.</dt>
-                                                    <dd>celles qui établissent un régime de marché ou de prix de caractère
-                                                        étatique;
-                                                    </dd>
-                                                    <dt>b.</dt>
-                                                    <dd>celles qui chargent certaines entreprises de l'exécution de tâches
-                                                        publiques en leur accordant des droits spéciaux.
-                                                    </dd>
-                                                </dl>
-                                                <p><sup><a name="2">2</a></sup>La présente loi n'est pas applicable
-                                                    aux effets sur la concurrence qui découlent exclusivement de la
-                                                    législation sur la propriété intellectuelle. En revanche, les
-                                                    restrictions aux importations fondées sur des droits de propriété
-                                                    intellectuelle sont soumises à la présente loi.<sup><a href="#fn-#a3-1">1</a></sup>
-                                                </p>
-                                                <p>
-                                                    <sup><a name="3">3</a></sup>
-                                                    Les procédures prévues par la présente
-                                                    loi en vue de l'appréciation des restrictions à la concurrence priment
-                                                    les procédures prévues par la loi fédérale du 20décembre 1985
-                                                    concernant la surveillance des prix<sup><a href="#fn-#a3-2">2</a></sup>,
-                                                    sauf décision contraire prise d'un commun accord par la Commission de la
-                                                    concurrence et le Surveillant des prix.
-                                                </p>
-                                                <div class="fns">
+                                                <div class="a3 subpage" id="a3">
+                                                    <div class="articleTitle">
+                                                        <h5><a href="index.html#a3"><strong>Art. 3</strong> Rapport avec d'autres prescriptions légales</a></h5>
+                                                    </div>
                                                     <p>
-                                                        <small><a name="fn-#a3-1"><sup>1</sup></a> Phrase introduite par le
-                                                            ch. I de la LF du 20 juin 2003, en vigueur depuis le
-                                                            1<sup>er</sup> avr. 2004 (<a
-                                                                    href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
-                                                                <strong>2004</strong> 1385</a>; <a
-                                                                    href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
-                                                                <strong>2002</strong> 1911</a> 5128).<a name="fn-#a3-2"><sup>2</sup></a>
-                                                            RS <strong><a href="http://www.admin.ch/ch/f/rs/c942_20.html">942.20</a></strong>
-                                                        </small>
+                                                        <sup><a name="1">1</a></sup>Les prescriptions qui, sur un
+                                                        marché, excluent de la concurrence certains biens ou services sont
+                                                        réservées, notamment:
                                                     </p>
-                                                </div>
-                                            </div>
-                                            <div class="a4 subpage" id="a4">
-                                                <div class="articleTitle"><h5><a href="index.html#a4"><strong>Art.m4</strong> Définitions</a></h5></div>
-                                                <p><sup><a name="1">1</a></sup>Par accords en matière de
-                                                    concurrence, on entend les conventions avec ou sans force obligatoire
-                                                    ainsi que les pratiques concertées d'entreprises occupant des échelons
-                                                    du marché identiques ou différents, dans la mesure où elles visent ou
-                                                    entraînent une restriction à la concurrence.
-                                                </p>
-                                                <p>
-                                                    <sup><a name="2">2</a></sup>
-                                                    Par entreprises dominant le marché, on
-                                                    entend une ou plusieurs entreprises qui sont à même, en matière d'offre
-                                                    ou de demande, de se comporter de manière essentiellement indépendante
-                                                    par rapport aux autres participants au marché (concurrents, fournisseurs
-                                                    ou acheteurs).<sup><a href="#fn-#a4-1">1</a></sup>
-                                                </p>
-                                                <p><sup><a name="3">3</a></sup>Par concentration d'entreprises, on entend:</p>
-                                                <dl compact="compact">
-                                                    <dt>a.</dt>
-                                                    <dd>la fusion de deux ou de plusieurs entreprises jusque-là
-                                                        indépendantes les unes des autres;
-                                                    </dd>
-                                                    <dt>b.</dt>
-                                                    <dd>toute opération par laquelle une ou plusieurs entreprises
-                                                        acquièrent, notamment par prise de participation au capital ou
-                                                        conclusion d'un contrat, le contrôle direct ou indirect d'une ou de
-                                                        plusieurs entreprises jusque-là indépendantes ou d'une partie de
-                                                        celles-ci.
-                                                    </dd>
-                                                </dl>
-                                                <div class="fns">
+                                                    <dl compact="compact">
+                                                        <dt>a.</dt>
+                                                        <dd>celles qui établissent un régime de marché ou de prix de caractère
+                                                            étatique;
+                                                        </dd>
+                                                        <dt>b.</dt>
+                                                        <dd>celles qui chargent certaines entreprises de l'exécution de tâches
+                                                            publiques en leur accordant des droits spéciaux.
+                                                        </dd>
+                                                    </dl>
+                                                    <p><sup><a name="2">2</a></sup>La présente loi n'est pas applicable
+                                                        aux effets sur la concurrence qui découlent exclusivement de la
+                                                        législation sur la propriété intellectuelle. En revanche, les
+                                                        restrictions aux importations fondées sur des droits de propriété
+                                                        intellectuelle sont soumises à la présente loi.<sup><a href="#fn-#a3-1">1</a></sup>
+                                                    </p>
                                                     <p>
-                                                        <small><a name="fn-#a4-1"><sup>1</sup>
-                                                            </a> Nouvelle teneur selon le ch. I de la LF du 20 juin 2003, en vigueur depuis le 1<sup>er</sup> avr. 2004
-                                                            (<a href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO <strong>2004</strong> 1385</a>;
-                                                            <a href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF<strong>2002</strong> 1911</a> 5128).
-                                                        </small>
+                                                        <sup><a name="3">3</a></sup>
+                                                        Les procédures prévues par la présente
+                                                        loi en vue de l'appréciation des restrictions à la concurrence priment
+                                                        les procédures prévues par la loi fédérale du 20décembre 1985
+                                                        concernant la surveillance des prix<sup><a href="#fn-#a3-2">2</a></sup>,
+                                                        sauf décision contraire prise d'un commun accord par la Commission de la
+                                                        concurrence et le Surveillant des prix.
                                                     </p>
+                                                    <div class="fns">
+                                                        <p>
+                                                            <small><a name="fn-#a3-1"><sup>1</sup></a> Phrase introduite par le
+                                                                ch. I de la LF du 20 juin 2003, en vigueur depuis le
+                                                                1<sup>er</sup> avr. 2004 (<a
+                                                                        href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
+                                                                    <strong>2004</strong> 1385</a>; <a
+                                                                        href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
+                                                                    <strong>2002</strong> 1911</a> 5128).<a name="fn-#a3-2"><sup>2</sup></a>
+                                                                RS <strong><a href="http://www.admin.ch/ch/f/rs/c942_20.html">942.20</a></strong>
+                                                            </small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="a4 subpage" id="a4">
+                                                    <div class="articleTitle"><h5><a href="index.html#a4"><strong>Art. 4</strong> Définitions</a></h5></div>
+                                                    <p><sup><a name="1">1</a></sup>Par accords en matière de
+                                                        concurrence, on entend les conventions avec ou sans force obligatoire
+                                                        ainsi que les pratiques concertées d'entreprises occupant des échelons
+                                                        du marché identiques ou différents, dans la mesure où elles visent ou
+                                                        entraînent une restriction à la concurrence.
+                                                    </p>
+                                                    <p>
+                                                        <sup><a name="2">2</a></sup>
+                                                        Par entreprises dominant le marché, on
+                                                        entend une ou plusieurs entreprises qui sont à même, en matière d'offre
+                                                        ou de demande, de se comporter de manière essentiellement indépendante
+                                                        par rapport aux autres participants au marché (concurrents, fournisseurs
+                                                        ou acheteurs).<sup><a href="#fn-#a4-1">1</a></sup>
+                                                    </p>
+                                                    <p><sup><a name="3">3</a></sup>Par concentration d'entreprises, on entend:</p>
+                                                    <dl compact="compact">
+                                                        <dt>a.</dt>
+                                                        <dd>la fusion de deux ou de plusieurs entreprises jusque-là
+                                                            indépendantes les unes des autres;
+                                                        </dd>
+                                                        <dt>b.</dt>
+                                                        <dd>toute opération par laquelle une ou plusieurs entreprises
+                                                            acquièrent, notamment par prise de participation au capital ou
+                                                            conclusion d'un contrat, le contrôle direct ou indirect d'une ou de
+                                                            plusieurs entreprises jusque-là indépendantes ou d'une partie de
+                                                            celles-ci.
+                                                        </dd>
+                                                    </dl>
+                                                    <div class="fns">
+                                                        <p>
+                                                            <small><a name="fn-#a4-1"><sup>1</sup>
+                                                                </a> Nouvelle teneur selon le ch. I de la LF du 20 juin 2003, en vigueur depuis le 1<sup>er</sup> avr. 2004
+                                                                (<a href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO <strong>2004</strong> 1385</a>;
+                                                                <a href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF<strong>2002</strong> 1911</a> 5128).
+                                                            </small>
+                                                        </p>
+                                                    </div>
                                                 </div>
                                             </div>
-
                                         </div>
-
                                         <a name="id-2"></a>
                                         <h1 class="title clickable"><span class="expanderComparator"></span>Chapitre 2 Dispositions de droit matériel</h1>
                                         <div class="collapseable">
@@ -518,45 +534,55 @@
                                             <div class="collapseable"><div class="a58 subpage" id="a58"><div class="articleTitle"><h5><a href="index.html#a58"><strong>Art. 58</strong> Etablissement des faits</a></h5></div> <p><sup><a name="1">1</a></sup>Lorsqu'une partie à un accord international fait valoir qu'une restriction à la concurrence est incompatible avec l'accord, le DEFR peut charger le secrétariat de procéder à une enquête préalable.</p><p><sup><a name="2">2</a></sup>Sur proposition du secrétariat, le DEFR décide de la suite à donner à l'affaire. Il entend auparavant les intéressés.</p></div><div class="a59 subpage" id="a59"><div class="articleTitle"><h5><a href="index.html#a59"><strong>Art. 59</strong> Suppression des incompatibilités</a></h5></div>  <p><sup><a name="1">1</a></sup>Si, dans l'exécution d'un accord international, il est constaté qu'une restriction à la concurrence est incompatible avec l'accord, le DEFR peut, d'entente avec le Département fédéral des affaires étrangères, proposer aux parties concernées un accord amiable en vue de la suppression de l'incompatibilité.</p><p><sup><a name="2">2</a></sup>Si un accord amiable ne peut être réalisé à temps et qu'une partie à l'accord international menace de prendre des mesures à l'encontre de la Suisse, le DEFR peut, d'entente avec le Département fédéral des affaires étrangères, ordonner les mesures nécessaires à la suppression de la restriction à la concurrence.</p></div></div><a name="id-6a"></a><h1 class="title clickable"><span class="expanderComparator"></span>Chapitre 6<em>a</em><sup><a href="#fn8">8</a></sup> Evaluation</h1><div class="collapseable"><div class="a59a subpage" id="a59a"><div class="articleTitle"><h5><a href="index.html#a59a"><strong>Art. 59</strong><em>a</em></a></h5></div>  <p><sup><a name="1">1</a></sup>Le Conseil fédéral veille à ce que l'exécution de la présente loi et l'efficacité des mesures prises fassent l'objet d'une évaluation.</p><p><sup><a name="2">2</a></sup>Le Conseil fédéral présente un rapport au Parlement lorsque l'évaluation est terminée, mais au plus tard cinq ans après l'entrée en vigueur de la présente disposition, et lui soumet des propositions quant à la suite à donner à l'évaluation.</p></div></div>
 
                                         <a name="id-7"></a>
-                                            <h1 class="title clickable"><span class="expanderComparator"></span>Chapitre 7 Dispositions finales</h1>
+                                            <div id="finale" {{$popover}} title="Dispositions finales" data-content="Les dispositions finales (« die Schlussbestimmungen» ; « le disposizioni finali ») précisent les conditions d'exécution de l'acte. Elles comprennent en principe les parties suivantes : 503 P Les clauses d'exécution. La mise en oeuvre du régime instauré par la loi peut appeler des règles complémentaires, dites d'exécution. L'acte désigne les organes compétents pour les adopter et précise souvent les modalités de l'intervention. ">
+                                                <h1 class="title clickable"><span class="expanderComparator"></span>Chapitre 7 Dispositions finales</h1>
                                                 <div class="collapseable">
                                                     <div class="a60 subpage" id="a60">
-                                                        <div class="articleTitle"><h5><a href="index.html#a60"><strong>Art. 60</strong> Exécution</a></h5></div>
-                                                        <p>Le Conseil fédéral édicte les dispositions d'exécution.</p></div>
-                                                    <div class="a61 subpage" id="a61">
-                                                        <div class="articleTitle"><h5><a href="index.html#a61"><strong>Art.  61</strong> Abrogation du droit en vigueur</a></h5></div>
-                                                        <p>La loi du 20 décembre 1985<sup><a href="#fn-#a61-1">1</a></sup> sur les cartels et organisations analogues est abrogée.</p>
-                                                        <div class="fns">
-                                                            <p>
-                                                                <small><a name="fn-#a61-1"><sup>1</sup></a> [RO <strong>1986</strong> 874, <strong>1992</strong> 288 annexe ch. 12]</small>
-                                                            </p>
+                                                        <div class="articleTitle">
+                                                            <h5>
+                                                                <a href="index.html#a60"><strong>Art. 60</strong>
+                                                                   <span id="clause" {{$popover}} title="Clause d'exécution" data-content="Clause d'exécution">  Exécution</span>
+                                                                </a>
+                                                            </h5>
+                                                        </div>
+                                                        <p>Le Conseil fédéral édicte les dispositions d'exécution.</p>
+                                                    </div>
+                                                    <div class="a61 subpage" id="a61" >
+                                                        <div id="abrogatoire" {{$popover}} title="Clause abrogatoire" data-content="Clause abrogatoire">
+                                                            <div class="articleTitle">
+                                                                <h5><a href="index.html#a61"><strong>Art.  61</strong> Abrogation du droit en vigueur</a></h5>
+                                                            </div>
+                                                            <p>La loi du 20 décembre 1985<sup><a href="#fn-#a61-1">1</a></sup> sur les cartels et organisations analogues est abrogée.</p>
+                                                            <div class="fns">
+                                                                <p><small><a name="fn-#a61-1"><sup>1</sup></a> [RO <strong>1986</strong> 874, <strong>1992</strong> 288 annexe ch. 12]</small></p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <div class="a62 subpage" id="a62">
-                                                        <div class="articleTitle"><h5><a href="index.html#a62"><strong>Art.  62</strong> Dispositions transitoires</a></h5></div>
-                                                        <p><sup><a name="1">1</a></sup>&nbsp;Les procédures en cours devant
-                                                            la Commission des cartels relatives à des accords en matière de
-                                                            concurrence sont suspendues dès l'entrée en vigueur de la présente loi;
-                                                            si nécessaire, elles seront poursuivies selon le nouveau droit à
-                                                            l'expiration d'un délai de six mois.
-                                                        </p>
-                                                        <p><sup><a name="2">2</a></sup>&nbsp;Une nouvelle procédure devant la
-                                                            commission relative à des accords en matière de concurrence ne pourra
-                                                            être introduite qu'à l'expiration d'un délai de six mois à compter de
-                                                            l'entrée en vigueur de la loi, à moins que les destinataires potentiels
-                                                            d'une décision n'aient demandé qu'il soit procédé plus tôt à une
-                                                            enquête. L'enquête préalable peut être menée en tout temps.
-                                                        </p>
-                                                        <p><sup><a name="3">3</a></sup>&nbsp;Les décisions en force et les
-                                                            recommandations acceptées en vertu de la loi fédérale du 20 décembre
-                                                            1985<sup><a href="#fn-#a62-1">1</a></sup> sur les cartels et
-                                                            organisations analogues continuent à être régies par l'ancien droit, y
-                                                            compris en ce qui concerne les sanctions.
-                                                        </p>
-                                                        <div class="fns">
-                                                            <p>
-                                                                <small><a name="fn-#a62-1"><sup>1</sup></a> [RO <strong>1986</strong> 874, <strong>1992</strong> 288 annexe ch. 12]</small>
+                                                        <div id="regle" {{$popover}} title="Règle de droit intemporel" data-content="Règles du droit intemporel et universel">
+                                                            <div class="articleTitle"><h5><a href="index.html#a62"><strong>Art.  62</strong> Dispositions transitoires</a></h5></div>
+                                                            <p><sup><a name="1">1</a></sup>&nbsp;Les procédures en cours devant
+                                                                la Commission des cartels relatives à des accords en matière de
+                                                                concurrence sont suspendues dès l'entrée en vigueur de la présente loi;
+                                                                si nécessaire, elles seront poursuivies selon le nouveau droit à
+                                                                l'expiration d'un délai de six mois.
                                                             </p>
+                                                            <p><sup><a name="2">2</a></sup>&nbsp;Une nouvelle procédure devant la
+                                                                commission relative à des accords en matière de concurrence ne pourra
+                                                                être introduite qu'à l'expiration d'un délai de six mois à compter de
+                                                                l'entrée en vigueur de la loi, à moins que les destinataires potentiels
+                                                                d'une décision n'aient demandé qu'il soit procédé plus tôt à une
+                                                                enquête. L'enquête préalable peut être menée en tout temps.
+                                                            </p>
+                                                            <p><sup><a name="3">3</a></sup>&nbsp;Les décisions en force et les
+                                                                recommandations acceptées en vertu de la loi fédérale du 20 décembre
+                                                                1985<sup><a href="#fn-#a62-1">1</a></sup> sur les cartels et
+                                                                organisations analogues continuent à être régies par l'ancien droit, y
+                                                                compris en ce qui concerne les sanctions.
+                                                            </p>
+                                                            <div class="fns">
+                                                                <p><small><a name="fn-#a62-1"><sup>1</sup></a> [RO <strong>1986</strong> 874, <strong>1992</strong> 288 annexe ch. 12]</small></p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <div class="a63 subpage" id="a63">
@@ -567,91 +593,91 @@
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <p>Date de l'entrée en vigueur: 1<sup>er</sup> juillet 1996<sup><a href="#fn9">9</a></sup></p>
-                                                <p>Art. 18 à 25: 1<sup>er</sup> février 1996<sup><a href="#fn10">10</a></sup></p><a  name="id-final1"></a>
+                                                <div id="entree" {{$popover}} title="Entrée en vigueur" data-content="Entrée en vigueur">
+                                                    <p>Date de l'entrée en vigueur: 1<sup>er</sup> juillet 1996<sup><a href="#fn9">9</a></sup></p>
+                                                    <p>Art. 18 à 25: 1<sup>er</sup> février 1996<sup><a href="#fn10">10</a></sup></p><a name="id-final1"></a>
+                                                </div>
+                                            </div>
 
-                                                <div class="bloc" id="signatures">
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <p>Conseil national, 6 octobre 1995</p>
-                                                            <p>Le président: Claude Frey <br/>Le secrétaire: Duvillard </p>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <p>Conseil des Etats, 6 octobre 1995 </p>
-                                                            <p>Le président: Ktichler <br/>Le secrétaire: Lanz </p>
-                                                        </div>
+                                            <div class="bloc" id="signatures" {{$popover}} title="Signatures" data-content="Signatures">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <p>Conseil national, 6 octobre 1995</p>
+                                                        <p>Le président: Claude Frey <br/>Le secrétaire: Duvillard </p>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <p>Conseil des Etats, 6 octobre 1995 </p>
+                                                        <p>Le président: Ktichler <br/>Le secrétaire: Lanz </p>
                                                     </div>
                                                 </div>
-                                                <div id="formule">
-                                                    <div class="bloc">
-                                                        <p><cite>Expiration du délai référendaire et entrée en vigueur </cite></p>
-                                                        <p><sup>1</sup> Le délai référendaire s'appliquant à la présente loi a expiré le 15 janvier 1996 sans avoir été utilisé. <sup>2</sup>) </p>
-                                                        <p><sup>2</sup> Les articles 18 à 25 de la présente loi entrent en vigueur le 1" février 1996. L'entrée en vigueur des autres dispositions sera fixée ultérieurement. </p>
-                                                    </div>
-                                                    <div class="row bloc">
-                                                        <div class="col-md-6">
-                                                            26 janvier 1996
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <p>Au nom du Conseil fédéral suisse: </p>
-                                                            <p>Le président de la Confédération, Delamuraz <br/>Le chancelier de la Confédération, Couchepin </p>
-                                                        </div>
+                                            </div>
+                                            <div id="formule" {{$popover}} title="Formule de promulgation" data-content="Acte par lequel un organte constate officiellement l'existence d'un texte légistlatif et en atteste la validité">
+                                                <div class="bloc">
+                                                    <p><cite>Expiration du délai référendaire et entrée en vigueur </cite></p>
+                                                    <p><sup>1</sup> Le délai référendaire s'appliquant à la présente loi a expiré le 15 janvier 1996 sans avoir été utilisé. <sup>2</sup>) </p>
+                                                    <p><sup>2</sup> Les articles 18 à 25 de la présente loi entrent en vigueur le 1" février 1996. L'entrée en vigueur des autres dispositions sera fixée ultérieurement. </p>
+                                                </div>
+                                                <div class="row bloc">
+                                                    <div class="col-md-6">26 janvier 1996</div>
+                                                    <div class="col-md-6">
+                                                        <p>Au nom du Conseil fédéral suisse: </p>
+                                                        <p>Le président de la Confédération, Delamuraz <br/>Le chancelier de la Confédération, Couchepin </p>
                                                     </div>
                                                 </div>
+                                            </div>
 
-                                                <h1 class="title clickable">
-                                                    <span class="expanderComparator"></span>Dispositions  finales de la modification du 20 juin 2003<sup><a href="#fn11">11</a></sup>
-                                                </h1>
-                                                <div class="collapseable">
-                                                    <p>Aucune sanction prévue à l'art. 49<em>a</em> n'est
-                                                        prise lorsqu'une restriction à la concurrence est annoncée ou supprimée dans
-                                                        l'année qui suit l'entrée en vigueur de cette disposition.
-                                                    </p>
-                                                </div>
-
-                                                <div class="app1 subpage" id="app1">
-                                                    <h1 class="title clickable" id="ahref0"><span class="expanderComparator"></span><em>Annexe</em></h1>
-                                                    <div class="collapseable"><h2 id="ahref1">Modification du droit en vigueur</h2>
-                                                        <p>…<sup><a href="#fn-#app1-1">1</a></sup></p>
-                                                        <div class="fns">
-                                                            <p>
-                                                                <small><a name="fn-#app1-1"><sup>1</sup></a> Les mod. peuvent être consultées au RO <strong>1996</strong> 546. </small>
-                                                            </p>
-                                                        </div>
+                                            <h1 class="title clickable">
+                                                <span class="expanderComparator"></span>Dispositions  finales de la modification du 20 juin 2003<sup><a href="#fn11">11</a></sup>
+                                            </h1>
+                                            <div class="collapseable">
+                                                <p>Aucune sanction prévue à l'art. 49<em>a</em> n'est
+                                                    prise lorsqu'une restriction à la concurrence est annoncée ou supprimée dans
+                                                    l'année qui suit l'entrée en vigueur de cette disposition.
+                                                </p>
+                                            </div>
+                                            <div class="app1 subpage" id="app1">
+                                                <h1 class="title clickable" id="ahref0"><span class="expanderComparator"></span><em>Annexe</em></h1>
+                                                <div class="collapseable"><h2 id="ahref1">Modification du droit en vigueur</h2>
+                                                    <p>…<sup><a href="#fn-#app1-1">1</a></sup></p>
+                                                    <div class="fns">
+                                                        <p><small><a name="fn-#app1-1"><sup>1</sup></a> Les mod. peuvent être consultées au RO <strong>1996</strong> 546. </small></p>
                                                     </div>
                                                 </div>
-                                                <div>
-                                                    <a name="fuss"></a><p>&nbsp;RO <strong>1996</strong> 546</p>
-                                                </div>
-                                                <div class="fns">
-                                                    <p>
-                                                        <small><a name="fn1"><sup>1</sup></a> Cette disp. correspond à l'art.
-                                                            31<sup>bis</sup> de la cst. du 29 mai 1874 (RS <strong>1</strong>
-                                                            3).<br><a name="fn2"><sup>2</sup></a> Cette disp. correspond à l'art. 64
-                                                            de la cst. du 29 mai 1874 (RS <strong>1</strong> 3).<br><a  name="fn3"><sup>3</sup></a> RS <strong>101</strong><br>
-                                                            <a name="fn4"><sup>4</sup></a> Nouvelle teneur selon le ch. I de la
-                                                            LF du 20 juin 2003, en vigueur depuis le 1<sup>er</sup> avr. 2004 (<a href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
-                                                                <strong>2004</strong> 1385</a>; <a
-                                                                    href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
-                                                                <strong>2002</strong> 1911</a> 5128).<br><a name="fn5"><sup>5</sup></a>
-                                                            FF <strong>1995</strong> I 472<br><a name="fn6"><sup>6</sup></a>
-                                                            Anciennement avant art. 50.<br><a name="fn7"><sup>7</sup></a> Introduite
-                                                            par le ch. I de la LF du 20 juin 2003, en vigueur depuis le
-                                                            1<sup>er</sup> avr. 2004 (<a href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
-                                                                <strong>2004</strong> 1385</a>; <a href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
-                                                                <strong>2002</strong> 1911</a> 5128).<br><a name="fn8"><sup>8</sup></a>
-                                                            Introduit par le ch. I de la LF du 20 juin 2003, en vigueur depuis le
-                                                            1<sup>er</sup> avr. 2004 (<a  href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
-                                                                <strong>2004</strong> 1385</a>; <a href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
-                                                                <strong>2002</strong> 1911</a> 5128).<br><a name="fn9"><sup>9</sup></a>
-                                                            O du 17 juin 1996 (RO <strong>1996</strong> 1805)<br><a name="fn10"><sup>10</sup></a> ACF du 26 janv. 1996<br>
-                                                            <a name="fn11"><sup>11</sup></a>
-                                                            <a href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
-                                                                <strong>2004</strong> 1385</a>; <a href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
-                                                                <strong>2002</strong> 1911</a> 5128
-                                                        </small>
-                                                    </p>
-                                                </div>
+                                            </div>
+                                            <div>
+                                                <a name="fuss"></a>
+                                                <p>&nbsp;RO <strong>1996</strong> 546</p>
+                                            </div>
+                                            <div class="fns">
+                                                <p>
+                                                    <small>
+                                                        <a name="fn1"><sup>1</sup></a> Cette disp. correspond à l'art.
+                                                        31<sup>bis</sup> de la cst. du 29 mai 1874 (RS <strong>1</strong>
+                                                        3).<br><a name="fn2"><sup>2</sup></a> Cette disp. correspond à l'art. 64
+                                                        de la cst. du 29 mai 1874 (RS <strong>1</strong> 3).<br><a  name="fn3"><sup>3</sup></a> RS <strong>101</strong><br>
+                                                        <a name="fn4"><sup>4</sup></a> Nouvelle teneur selon le ch. I de la
+                                                        LF du 20 juin 2003, en vigueur depuis le 1<sup>er</sup> avr. 2004 (<a href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
+                                                            <strong>2004</strong> 1385</a>; <a
+                                                                href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
+                                                            <strong>2002</strong> 1911</a> 5128).<br><a name="fn5"><sup>5</sup></a>
+                                                        FF <strong>1995</strong> I 472<br><a name="fn6"><sup>6</sup></a>
+                                                        Anciennement avant art. 50.<br><a name="fn7"><sup>7</sup></a> Introduite
+                                                        par le ch. I de la LF du 20 juin 2003, en vigueur depuis le
+                                                        1<sup>er</sup> avr. 2004 (<a href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
+                                                            <strong>2004</strong> 1385</a>; <a href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
+                                                            <strong>2002</strong> 1911</a> 5128).<br><a name="fn8"><sup>8</sup></a>
+                                                        Introduit par le ch. I de la LF du 20 juin 2003, en vigueur depuis le
+                                                        1<sup>er</sup> avr. 2004 (<a  href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
+                                                            <strong>2004</strong> 1385</a>; <a href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
+                                                            <strong>2002</strong> 1911</a> 5128).<br><a name="fn9"><sup>9</sup></a>
+                                                        O du 17 juin 1996 (RO <strong>1996</strong> 1805)<br><a name="fn10"><sup>10</sup></a> ACF du 26 janv. 1996<br>
+                                                        <a name="fn11"><sup>11</sup></a>
+                                                        <a href="http://www.admin.ch/ch/f/as/2004/1385.pdf">RO
+                                                            <strong>2004</strong> 1385</a>; <a href="http://www.admin.ch/ch/f/ff/2002/1911.pdf">FF
+                                                            <strong>2002</strong> 1911</a> 5128
+                                                    </small>
+                                                </p>
+                                            </div>
                                             </div>
                                         </div>
 

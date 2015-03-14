@@ -35,7 +35,7 @@ $(function(){
         e.preventDefault();
         var anchor = $(this).data('anchor');
 
-        var $test = $('#' +anchor), o = $test.offset().top - 200;
+        var $test = $('#' +anchor), o = $test.offset().top - 300;
         $('html, body').animate({ scrollTop: o }, 800, function(){
             $test.popover('show');
             $test.expose({padding: 4});
