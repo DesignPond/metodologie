@@ -15,37 +15,54 @@
                         <div class="row gutter"><!-- row -->
                             <div class="col-lg-3 col-md-3">
                                 <h3>Structure</h3>
-                                <ul id="guides">
-                                    <li><a class="expose" data-anchor="intitule" href="#">Intitulé</a>
-                                        <ul>
-                                            <li><a class="expose" data-anchor="numero" href="#">Numéro</a></li>
-                                            <li><a class="expose" data-anchor="forme" href="#">Forme de l'acte</a></li>
-                                            <li><a class="expose" data-anchor="court" href="#">Titre court</a></li>
-                                            <li><a class="expose" data-anchor="sigle" href="#">Sigle</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="expose" data-anchor="preambule" href="#">Préambule</a></li>
-                                </ul>
+                                    <ol id="guides" class="list-guide">
+                                        <li><a class="expose" data-anchor="intitule" href="#">Intitulé</a>
+                                            <ul>
+                                                <li><a class="expose" data-anchor="numero" href="#">Numéro</a></li>
+                                                <li><a class="expose" data-anchor="forme" href="#">Forme de l'acte</a></li>
+                                                <li><a class="expose" data-anchor="objet" href="#">Objet</a></li>
+                                                <li><a class="expose" data-anchor="court" href="#">Titre court</a></li>
+                                                <li><a class="expose" data-anchor="sigle" href="#">Sigle</a></li>
+                                                <li><a class="expose" data-anchor="date" href="#">Date d'adoption</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="expose" data-anchor="preambule" href="#">Préambule</a>
+                                            <ul>
+                                                <li><a class="expose" data-anchor="organe" href="#">Organe</a></li>
+                                                <li><a class="expose" data-anchor="visa" href="#">Visa, Base cst.</a></li>
+                                                <li><a class="expose" data-anchor="message" href="#">Réf. au Message du CF</a></li>
+                                            </ul>
+                                        </li>
+                                    </ol>
                             </div>
                             <div class="col-lg-9 col-md-9">
 
                                 <div id="content">
 
+                                    <?php $popover = ' tabindex="0" data-trigger="focus" data-toggle="popover" data-placement="bottom" '; ?>
+
                                     <div id="intitule">
-                                        <h1 tabindex="0" data-trigger="focus" data-toggle="popover" data-placement="bottom" title="Numéro" data-content="Chaque acte inclut dans le recueil dispose d'un numéro RS correspondant à sa position dans le classement thématique" id="numero">251</h1>
-                                        <h1 tabindex="0" data-trigger="focus" data-toggle="popover" data-placement="bottom" title="La forme de l'acte" data-content="L'intitulé indique le type d'acte normatif dont il s'agit selon la classification propre à l'ordre constitutionnel de l'État (p.ex. une loi, un arrêté, une ordonnance, un décret, un règlement, une convention, un protocole)" id="forme" >Loi fédérale sur les cartels et autres restrictions à la concurrence</h1>
+                                        <h1 id="numero" {{$popover}} title="Numéro" data-content="Chaque acte inclut dans le recueil dispose d'un numéro RS correspondant à sa position dans le classement thématique">251</h1>
+                                        <h1>
+                                            <span id="forme" {{$popover}} title="La forme de l'acte" data-content="L'intitulé indique le type d'acte normatif dont il s'agit selon la classification propre à l'ordre constitutionnel de l'État (p.ex. une loi, un arrêté, une ordonnance, un décret, un règlement, une convention, un protocole)">Loi fédérale</span>
+                                            <span id="objet" {{$popover}} title="Objet" data-content="Détermination de l'objet">sur les cartels et autres restrictions à la concurrence</span>
+                                        </h1>
                                         <h2>
-                                            <span tabindex="0" data-trigger="focus" id="court" data-placement="bottom" data-toggle="popover" title="Titre abrégé  officiel" data-content="Pour citer plus aisément un acte législatif, on peut lui donner un titre court. Il est inscrit dans le RS, entre parenthèses, sous le titre complet.">(Loi sur les cartels</span>,
-                                            <span tabindex="0" data-trigger="focus" id="sigle" data-placement="bottom" data-toggle="popover" title="Sigle" data-content="On parle tantôt de sigle, tantôt d'abréviation (« die Abkürzung » ; «l'abbreviazione »). Les sigles choisis ont d'abord été le fait de la pratique; la diversité qui en résultait était source de confusions. C'est pourquoi le Tribunal fédéral a peu à peu consacré des sigles officieux, qui figurent au début de chaque volume du Recueil officiel de ses arrêts">LCart</span>)
+                                            <span id="court" {{$popover}} title="Titre abrégé  officiel" data-content="Pour citer plus aisément un acte législatif, on peut lui donner un titre court. Il est inscrit dans le RS, entre parenthèses, sous le titre complet."> (Loi sur les cartels </span> ,
+                                            <span id="sigle" {{$popover}} title="Sigle" data-content="On parle tantôt de sigle, tantôt d'abréviation (« die Abkürzung » ; «l'abbreviazione »). Les sigles choisis ont d'abord été le fait de la pratique; la diversité qui en résultait était source de confusions. C'est pourquoi le Tribunal fédéral a peu à peu consacré des sigles officieux, qui figurent au début de chaque volume du Recueil officiel de ses arrêts">LCart) </span>
                                         </h2>
-                                        <p>du 6 octobre 1995 (Etat le 1<sup>er</sup> décembre 2014)</p>
+                                        <p id="date" {{$popover}} title="Date" data-content="Date d'adoption">du 6 octobre 1995 (Etat le 1<sup>er</sup> décembre 2014)</p>
                                     </div>
 
-                                    <div id="preambule" tabindex="0" data-trigger="focus" data-placement="bottom" data-toggle="popover" title="Préambule" data-content="">
-                                        <p><em>L'Assemblée fédérale de la Confédération suisse,</em></p>
-                                        <p>vu les art. 27, al. 1, 96<sup><a href="#fn1">1</a></sup>, 97, al. 2, et 122<sup><a href="#fn2">2</a></sup> de la Constitution<sup>
-                                                <a href="#fn3">3</a></sup>,<sup><a href="#fn4">4</a></sup> en application des dispositions du droit de la concurrence des accords internationaux, vu le message du Conseil fédéral du 23 novembre 1994<sup>
-                                                <a href="#fn5">5</a></sup>,
+                                    <div id="preambule" {{$popover}} title="Préambule" data-content="formule qui donne au texte ses fondements législatifs">
+                                        <p>
+                                            <em id="organe" {{$popover}} title="Organe" data-content="Organe qui a adopté le texte législatif">L'Assemblée fédérale de la Confédération suisse,</em>
+                                        </p>
+                                        <p><span id="visa" {{$popover}} title="Visa" data-content="Base cst.">vu</span> les art. 27, al. 1, 96<sup><a href="#fn1">1</a></sup>, 97, al. 2, et 122<sup><a href="#fn2">2</a></sup> de la Constitution
+                                            <sup><a href="#fn3">3</a></sup>,
+                                            <sup><a href="#fn4">4</a></sup> en application des dispositions du droit de la concurrence des accords internationaux,
+                                            <span id="message" {{$popover}} title="Message" data-content="Réf. au Message du CF">vu le message du Conseil fédéral du 23 novembre 1994</span>
+                                            <sup><a href="#fn5">5</a></sup>,
                                         </p>
                                         <p><em>arrête:</em></p>
                                     </div>

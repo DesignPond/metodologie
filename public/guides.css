@@ -4,7 +4,7 @@
 }
 
 #guides{
-    margin: 0;
+    margin-left: 10px;
     padding: 0;
     list-style: none;
 }
@@ -51,8 +51,53 @@ sup{
     font-size: 13px;
 }
 
-.popover {
-    width: 400px;
+.popover{
+    width:400px !important;
+    max-width: none
+}
+
+.list-guide{
+    list-style: decimal;
+}
+
+.list-guide li{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-left: 5px;
+    margin-left: 5px;
+    position: relative;
+    list-style: decimal;
+    text-transform: uppercase;
+}
+
+/*.list-guide li:before{
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 4px;
+}*/
+
+.list-guide li ul{
+    padding-left: 0;
+    margin: 10px 0 10px 0;
+}
+
+.list-guide li ul li{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.list-guide li ul li a{
+    color:#5d5d5d;
+}
+
+.list-guide li li:before{
+    content: none;
 }
 
 .annotator-hl{
