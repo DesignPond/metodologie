@@ -38,7 +38,8 @@ $(function(){
         var $test = $('#' +anchor), o = $test.offset().top - 300;
         $('html, body').animate({ scrollTop: o }, 800, function(){
             $test.popover('show');
-            $test.expose({padding: 4});
+            //$test.expose({padding: 4});
+            $test.addClass("warning");
         });
     });
 
@@ -46,8 +47,11 @@ $(function(){
         $('[data-toggle="popover"]').each(function () {
             if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
                 $(this).popover('hide');
+                $(this).removeClass("warning");
             }
         });
     });
+
+    $.lockfixed("#structures",{offset: {top: 10}});
 
 });

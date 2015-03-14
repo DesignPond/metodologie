@@ -14,7 +14,8 @@
 
                         <div class="row gutter"><!-- row -->
                             <div class="col-lg-3 col-md-3">
-                                <h3>Structure</h3>
+                                <div id="structures">
+                                    <h3>Structure</h3>
                                     <ol id="guides" class="list-guide">
                                         <li><a class="expose" data-anchor="intitule" href="#">Intitulé</a>
                                             <ul>
@@ -47,6 +48,7 @@
                                         <li><a class="expose" data-anchor="signatures" href="#">Signatures</a></li>
                                         <li><a class="expose" data-anchor="formule" href="#">Formule de promulgation</a></li>
                                     </ol>
+                                </div>
                             </div>
                             <div class="col-lg-9 col-md-9">
 
@@ -54,7 +56,7 @@
 
                                     <?php $popover = ' tabindex="0" data-trigger="focus" data-toggle="popover" data-placement="top" '; ?>
 
-                                    <div id="intitule">
+                                    <div id="intitule" {{$popover}} title="Intitulé" data-content="Intitulé">
                                         <h1 id="numero" {{$popover}} title="Numéro" data-content="Chaque acte inclut dans le recueil dispose d'un numéro RS correspondant à sa position dans le classement thématique">251</h1>
                                         <h1>
                                             <span id="forme" {{$popover}} title="La forme de l'acte" data-content="L'intitulé indique le type d'acte normatif dont il s'agit selon la classification propre à l'ordre constitutionnel de l'État (p.ex. une loi, un arrêté, une ordonnance, un décret, un règlement, une convention, un protocole)">Loi fédérale</span>

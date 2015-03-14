@@ -1,7 +1,12 @@
 .expose-overlay {
-    background:rgba(0,0,0,0.6);
+    background:rgba(0,0,0,0.2);
     z-index: 9999;
 }
+
+/*#structures{
+    position: fixed;
+    top: 250px;
+}*/
 
 #guides{
     margin-left: 10px;
@@ -51,8 +56,12 @@ sup{
     font-size: 13px;
 }
 
+.warning{
+    background:#fffed7;
+}
+
 .popover{
-    width:400px !important;
+    width:500px !important;
     max-width: none
 }
 

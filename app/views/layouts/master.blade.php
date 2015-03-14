@@ -17,17 +17,19 @@
     <link rel="stylesheet" type="text/css" href="<?php echo asset('css/annotator.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo asset('style.css');?>">
     <link rel="stylesheet" type="text/css" href="<?php echo asset('guides.css');?>">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
     <!-- jQuery -->
     <script src="<?php echo asset('jQuery/jquery-2.1.1.min.js');?>"></script>
     <script src="<?php echo asset('jQuery/jquery-migrate-1.2.1.min.js');?>"></script>
-
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="<?php echo asset('js/annotator-full.min.js');?>"></script>
     <script src="<?php echo asset('js/jquery-i18n-master/jquery.i18n.min.js');?>"></script>
     <script src="<?php echo asset('js/view_annotator.js');?>"></script>
     <script src="<?php echo asset('js/categories.js');?>"></script>
     <script src="<?php echo asset('js/jquery.expose.js');?>"></script>
     <script src="<?php echo asset('js/annotator.js');?>"></script>
+    <script src="<?php echo asset('js/jquery.lockfixed.js');?>"></script>
 
 </head>
 
