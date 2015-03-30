@@ -11,7 +11,7 @@
                         <h1 class="page-title">La structure d’une loi fédérale</h1>
                     </div>
                     <div class="news-body clearfix"><!-- course content -->
-
+                        <a class="btn btn-default" href="{{ url('detail') }}"><i class="fa fa-arrow-circle-o-left"></i> &nbsp;Retour</a>
                         <div class="row gutter"><!-- row -->
                             <div class="col-lg-3 col-md-3">
                                 <div id="structures">

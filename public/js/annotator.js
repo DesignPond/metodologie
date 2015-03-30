@@ -1,7 +1,7 @@
 $(function(){
 
     var url  = location.protocol + "//" + location.host+"/";
-    //$.i18n.load(i18n_dict);
+/*    //$.i18n.load(i18n_dict);
     var content = $('#content').annotator();
 
     content.annotator('addPlugin','Permissions', {
@@ -29,6 +29,14 @@ $(function(){
         annotationData: { 'uri': url + '/loi' },
         // This will perform a "search" action when the plugin loads.
         loadFromSearch: {'limit': 20, 'uri': url}
+    });*/
+
+    $('.fancybox').fancybox({
+        autoSize:false
+    });
+
+    $('[data-toggle="popover"]').hover(function(){
+        $(this).toggleClass('expose_hover_div');
     });
 
     $(".expose").click(function(e) {
@@ -36,7 +44,7 @@ $(function(){
         var anchor = $(this).data('anchor');
 
         var $test = $('#' +anchor), o = $test.offset().top - 300;
-        $('html, body').animate({ scrollTop: o }, 800, function(){
+        $('html, body').animate({ scrollTop: o }, 500, function(){
             $test.popover('show');
             //$test.expose({padding: 4});
             $test.addClass("warning");

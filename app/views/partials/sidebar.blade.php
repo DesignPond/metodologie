@@ -79,8 +79,8 @@
             <h1 class="title-widget">La recherche juridique</h1>
             <h6><a href="#">La législation suisse</a></h6>
             <ul>
-                <li><a class="active" href="#" title="menu item">La structure d’une loi fédérale</a></li>
-                <li><a href="#" title="menu item">La législation fédérale</a></li>
+                <li><a href="{{ url('detail') }}" title="menu item">La législation fédérale</a></li>
+                <li><a href="{{ url('loi') }}" title="menu item">La structure d’une loi fédérale</a></li>
                 <li><a href="#" title="menu item">Les législations cantonales</a></li>
             </ul>
             <h6><a href="#">La jurisprudence</a></h6>

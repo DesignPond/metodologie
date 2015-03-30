@@ -5,9 +5,9 @@
             <ul class="sub-menu">
                 <li><a href="{{ url('/content') }}">La législation suisse</a>
                     <ul class="sub-menu">
-                        <li><a href="{{ url('/content') }}">La structure d’une loi fédérale</a></li>
-                        <li><a href="{{ url('/content') }}">La législation fédérale</a></li>
-                        <li><a href="{{ url('/content') }}">Les législations cantonales</a></li>
+                        <li><a href="{{ url('/detail') }}">La législation fédérale</a></li>
+                        <li><a href="{{ url('/loi') }}">La structure d’une loi fédérale</a></li>
+                        <li><a href="#">Les législations cantonales</a></li>
                     </ul>
                 </li>
                 <li><a href="{{ url('/content') }}">La jurisprudence</a>
